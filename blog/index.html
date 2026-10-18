@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文章 — Jerryoungt</title>
+  <meta name="description" content="Jerryoungt 的全部文章：设计、技术、阅读与日常生活的长期记录。">
+  <meta name="theme-color" content="#f3efe7">
+  <meta property="og:title" content="文章 — Jerryoungt">
+  <meta property="og:description" content="收集值得慢慢想清楚的事。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jerryoungt.github.io/blog/">
+  <link rel="canonical" href="https://jerryoungt.github.io/blog/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script>
+    try {
+      const saved = localStorage.getItem('jerryoungt-theme');
+      const theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.dataset.theme = theme;
+    } catch (_) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Jerryoungt 首页">
+        <span class="brand-mark" aria-hidden="true">J</span>
+        <span class="brand-name">JERRYOUNGT</span>
+        <span class="brand-note">/ personal notes</span>
+      </a>
+      <div class="header-actions">
+        <nav class="site-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a class="is-active" href="/blog/" aria-current="page">文章</a>
+          <a href="/about.html">关于</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换深浅色主题">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.42-1.42"></path>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.3 14.2A8.4 8.4 0 0 1 9.8 3.7 8.4 8.4 0 1 0 20.3 14.2Z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero archive-hero">
+      <div class="container archive-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span>THE ARCHIVE</p>
+          <h1>所有<em>文章</em></h1>
+        </div>
+        <p class="page-intro">写作是思考留下的纹理。这里按时间收藏每一次认真想过的痕迹。</p>
+      </div>
+    </section>
+
+    <section class="archive-section">
+      <div class="container">
+        <div class="filter-bar" aria-label="按主题筛选文章">
+          <div class="filters" role="group" aria-label="文章分类">
+            <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">全部</button>
+            <button class="filter" type="button" data-filter="thinking" aria-pressed="false">思考</button>
+            <button class="filter" type="button" data-filter="design" aria-pressed="false">设计</button>
+            <button class="filter" type="button" data-filter="learning" aria-pressed="false">学习</button>
+          </div>
+          <span class="post-count" data-post-count>3 篇文章</span>
+        </div>
+
+        <div class="archive-list">
+          <article class="archive-item" data-category="thinking">
+            <a href="/blog/2026/hello-world.html">
+              <div class="archive-date">
+                <span>OCT</span>
+                <strong>18</strong>
+                <span>2026</span>
+              </div>
+              <div class="archive-copy">
+                <div class="archive-meta"><span>思考</span><span>4 分钟阅读</span></div>
+                <h2>写在开始之前</h2>
+                <p>在信息越来越快的时代，我想给自己留一个慢下来整理的地方。</p>
+              </div>
+              <span class="archive-arrow" aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="archive-item" data-category="design">
+            <a href="/blog/2026/a-quieter-digital-home.html">
+              <div class="archive-date">
+                <span>OCT</span>
+                <strong>16</strong>
+                <span>2026</span>
+              </div>
+              <div class="archive-copy">
+                <div class="archive-meta"><span>设计</span><span>6 分钟阅读</span></div>
+                <h2>给数字生活留一块安静的地方</h2>
+                <p>减少通知只是开始。真正稀缺的，是一块不被催促的空间。</p>
+              </div>
+              <span class="archive-arrow" aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="archive-item" data-category="learning">
+            <a href="/blog/2026/learning-slowly.html">
+              <div class="archive-date">
+                <span>OCT</span>
+                <strong>12</strong>
+                <span>2026</span>
+              </div>
+              <div class="archive-copy">
+                <div class="archive-meta"><span>学习</span><span>5 分钟阅读</span></div>
+                <h2>慢一点学，反而记得更久</h2>
+                <p>关于理解、遗忘，以及为什么我重新开始做读书笔记。</p>
+              </div>
+              <span class="archive-arrow" aria-hidden="true">↗</span>
+            </a>
+          </article>
+        </div>
+        <p class="empty-state" data-empty-state hidden>这个分类下还没有文章。</p>
+      </div>
+    </section>
+
+    <section class="archive-subscribe">
+      <div class="container subscribe-inner">
+        <div>
+          <p class="kicker">STAY CURIOUS</p>
+          <h2>下次更新，直接送达。</h2>
+          <p>不收集邮箱，不需要注册。把你的阅读器交给 RSS。</p>
+        </div>
+        <a class="button button-primary" href="/feed.xml">订阅 RSS <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5"></path></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div>
+        <p class="footer-kicker">LET'S KEEP IN TOUCH</p>
+        <a class="footer-mail" href="https://github.com/Jerryoungt" rel="me">在 GitHub 找到我 <span aria-hidden="true">↗</span></a>
+      </div>
+      <nav class="footer-nav" aria-label="页脚导航">
+        <a href="/blog/">文章</a>
+        <a href="/about.html">关于</a>
+        <a href="/feed.xml">RSS</a>
+      </nav>
+    </div>
+    <div class="container footer-wordmark" aria-hidden="true">JERRYOUNGT</div>
+    <div class="container footer-bottom">
+      <span>© 2026 Jerryoungt. Built with curiosity.</span>
+      <span class="footer-signoff">Shanghai · China</span>
+    </div>
+  </footer>
+
+  <script src="/assets/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jerryoungt</title>
+    <link>https://jerryoungt.github.io/</link>
+    <description>记录设计、技术、阅读与日常生活中的长期思考。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 18 Oct 2026 08:00:00 +0800</lastBuildDate>
+    <atom:link href="https://jerryoungt.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>写在开始之前</title>
+      <link>https://jerryoungt.github.io/blog/2026/hello-world.html</link>
+      <guid isPermaLink="true">https://jerryoungt.github.io/blog/2026/hello-world.html</guid>
+      <pubDate>Sun, 18 Oct 2026 08:00:00 +0800</pubDate>
+      <description>在信息越来越快的时代，我想给自己留一个慢下来整理的地方。这是一份关于为什么继续写作的说明。</description>
+    </item>
+    <item>
+      <title>给数字生活留一块安静的地方</title>
+      <link>https://jerryoungt.github.io/blog/2026/a-quieter-digital-home.html</link>
+      <guid isPermaLink="true">https://jerryoungt.github.io/blog/2026/a-quieter-digital-home.html</guid>
+      <pubDate>Fri, 16 Oct 2026 08:00:00 +0800</pubDate>
+      <description>减少通知只是开始。真正稀缺的，是一块不被催促的数字空间。</description>
+    </item>
+    <item>
+      <title>慢一点学，反而记得更久</title>
+      <link>https://jerryoungt.github.io/blog/2026/learning-slowly.html</link>
+      <guid isPermaLink="true">https://jerryoungt.github.io/blog/2026/learning-slowly.html</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0800</pubDate>
+      <description>关于理解、遗忘，以及为什么我重新开始做读书笔记。</description>
+    </item>
+  </channel>
+</rss>
